@@ -79,6 +79,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CustomException.cs" />
     <Compile Include="Setting.cs" />
     <Compile Include="Text.cs" />
     <Compile Include="MainWindow.xaml.cs">

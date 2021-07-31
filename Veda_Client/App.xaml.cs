@@ -13,5 +13,10 @@ namespace Veda_Client
     /// </summary>
     public partial class App : Application
     {
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            if (!AppText.IsLangLoad) this.Shutdown();
+            
+        }
     }
 }
