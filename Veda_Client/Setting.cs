@@ -3,31 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Veda_Client
 {
-    //Static application settings
+    //Static application settings. Set by developer
+    public partial class App : Application
+    {
+        public App()
+        {
+            this.Properties.Add("App_Name", "Veda_Client");
+        }
+    }
+
+
     public class Setting
     {
         //Support settings
-        public const char SplStr = ' ';
-        internal const int KeyTextMin = 1000;
-        internal const int KeyTextMax = 9999;
-        public const int KeyTextLen = 4;
+        public static string appName = "Veda-Client";
+        public static string pathLang = @".\lang\";
     }
-    
-    // Commom user setting
-    public class Setting_Share
-    {   
+
+    // Commom user setting. Can be change by interface
+    public class Setting_Common
+    {
         //Setting lang
-        internal static string Lang = "ru";
-        public static string PathLang = @".\lang\" + Lang +".txt";
+        internal static string lang = "ru";
     }
     
     //Personal user setting
     public class Setting_Personal
     {
-        //internal static string Test = "Ru";
+        //Almost empty ;)
     }
 
 }

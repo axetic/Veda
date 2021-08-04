@@ -81,7 +81,6 @@
     </Compile>
     <Compile Include="CustomException.cs" />
     <Compile Include="Setting.cs" />
-    <Compile Include="Text.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -124,6 +123,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppText\AppText.csproj">
+      <Project>{203e55de-e4d6-4c36-8750-a6c8ed2b6a1a}</Project>
+      <Name>AppText</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
