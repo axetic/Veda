@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test_AppTxt.cs" />
+    <Compile Include="Test_AppLog.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,9 +53,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppText\AppText.csproj">
-      <Project>{203e55de-e4d6-4c36-8750-a6c8ed2b6a1a}</Project>
-      <Name>AppText</Name>
+    <ProjectReference Include="..\LogText\LogText.csproj">
+      <Project>{62175669-10ed-4bb5-bc5e-787b637afe76}</Project>
+      <Name>LogText</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

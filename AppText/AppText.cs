@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static AppText.TextDictionary;
 
-namespace AppText
+namespace LogText
 {
     //Класс для словаря с текстами
-    public partial class TextDictionary : Dictionary<int, string>
+    public class TextDictionary : Dictionary<int, string>
     {
-        public static List<TextDictionary> appList;
+        public 
+        
         public string langAppName;
         public string appLang;
         public string pathFileLoad ="";
@@ -30,13 +30,13 @@ namespace AppText
         //Конструкторы
         static TextDictionary()
         {
-            appList = new List<TextDictionary>();
             txt = new TextDictionary(appName);
             appList.Add(txt);
             LoadStrReplace();
             LoadInitDict();
         }
-        public TextDictionary() : this(mErr) { }
+
+
         public TextDictionary(string appName) : base()
         {
             appLang = mErr;

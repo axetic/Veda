@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static AppText.TextDictionary;
 
-namespace AppText
+namespace LogText
 {
     public class IndexOutOfRangeException : ApplicationException
     {

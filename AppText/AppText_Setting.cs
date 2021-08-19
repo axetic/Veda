@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using static AppText.TextDictionary;
 
-namespace AppText
+namespace LogText
 {
     //Класс для словаря с текстами
-    public partial class TextDictionary : Dictionary<int, string>
+    public class TextDictionary2 : Dictionary<int, string>
     {
         public const string appName = "AppText";
         //Настройки формата файла языка
