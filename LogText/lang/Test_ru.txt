@@ -1,0 +1,12 @@
+?AppTextFormat:1.0
+@AppName:Test
+@Source:AppText
+@Lang:ru
+@Time unload:04.08.2021 23:25
+'1001:Test
+'0002:Gala2
+'0003:Gala3
+'0004:Gala4
+'1010:Program text
+'1011:Program text: {0} is parameter
+'1012:Program text: {0}, {1}
